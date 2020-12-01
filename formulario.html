@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario</title>
+</head>
+<body>
+    <main>
+        <h2 >Llena el formulario de Contacto</h2>
+
+        <form action="">
+            <fieldset>
+                <legend>Información Personal</legend>
+                <label for="nombre">Nombre:</label>
+                <input type="text"  placeholder="Tu Nombre" required>
+
+                <label for="email">E-mail: </label>
+                <input type="email"  placeholder="Tu Correo electrónico" required>
+
+                <label for="telefono">Teléfono:</label>
+                <input type="tel"  placeholder="Tu Teléfono" required>
+
+                <label for="mensaje">Mensaje: </label>
+                <textarea ></textarea>
+
+            </fieldset>
+
+            <fieldset>
+                <legend>Contacto</legend>
+
+                <p>Como desea ser Contactado:</p>
+
+                <div class="forma-contacto">
+                    <label for="telefono">Teléfono</label>
+                    <input type="radio" name="contacto" value="telefono">
+
+                    <label for="correo">E-mail</label>
+                    <input type="radio" name="contacto" value="correo" >
+                </div>
+
+                <p>Si eligió Teléfono, elija la fecha y la hora</p>
+                <label for="fecha">Fecha:</label>
+                <input type="date">
+
+                <label for="hora">Hora:</label>
+                <input type="time" min="09:00" max="18:00">
+
+     
+            </fieldset>
+
+            <input type="submit" value="Enviar">
+            <a href="./" align="left">ir al menu</a>
+
+
+
+
+        </form>
+    </main>
+</body>
+</html>
